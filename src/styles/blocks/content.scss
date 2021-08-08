@@ -185,9 +185,7 @@
 
 .facebook {
   margin-top: 100px;
-  margin-left: 240px;
-  margin-right: 240px;
-
+  
   &__title {
     font-size: 40px;
     font-weight: bold;
@@ -254,4 +252,33 @@
     }
   }
 }
-  
+
+@media (min-width: 769px) {
+  .facebook {
+    margin-left: 240px;
+    margin-right: 240px;
+
+    &__block {
+      display: flex;
+      justify-content: space-between;
+      color: #505d6f;
+    }
+  }
+}
+
+@media (max-width: 768px) {
+  .facebook {
+    flex-direction: column;
+    justify-content: center;
+    padding: 0 50px;
+
+    &__title {
+      text-align: center;
+    }
+
+    &__block {
+      font-size: 12px;
+    }
+
+  }
+}

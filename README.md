@@ -1,5 +1,5 @@
 # Futtura_Group landing page
-[DEMO LINK](https://nazar-kudatsky.github.io/Futurra_Group/)
+[DEMO LINK](https://nazar-kudatsky.github.io/Futurra__Group/)
 
 [Figma design](https://www.figma.com/file/bDmlLBR8sBsKnF4QT5KQeG/Test?node-id=0%3A228)
 
