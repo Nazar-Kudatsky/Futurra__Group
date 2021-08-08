@@ -189,7 +189,7 @@ var reloadCSS = require('_css_loader');
 
 module.hot.dispose(reloadCSS);
 module.hot.accept(reloadCSS);
-},{"./../fonts/Larsseit family/Larsseit-ExtraBold.woff":[["Larsseit-ExtraBold.1a4ef05e.woff","fonts/Larsseit family/Larsseit-ExtraBold.woff"],"fonts/Larsseit family/Larsseit-ExtraBold.woff"],"_css_loader":"../node_modules/parcel/src/builtins/css-loader.js"}],"../node_modules/parcel/src/builtins/hmr-runtime.js":[function(require,module,exports) {
+},{"./../fonts/Larsseit family/Larsseit-ExtraBold.woff":[["Larsseit-ExtraBold.1a4ef05e.woff","fonts/Larsseit family/Larsseit-ExtraBold.woff"],"fonts/Larsseit family/Larsseit-ExtraBold.woff"],"./../images/burger.svg":[["burger.fd086f28.svg","images/burger.svg"],"images/burger.svg"],"./../images/burgerhover.svg":[["burgerhover.de43d41a.svg","images/burgerhover.svg"],"images/burgerhover.svg"],"./../images/close.svg":[["close.4440cd52.svg","images/close.svg"],"images/close.svg"],"_css_loader":"../node_modules/parcel/src/builtins/css-loader.js"}],"../node_modules/parcel/src/builtins/hmr-runtime.js":[function(require,module,exports) {
 var global = arguments[3];
 var OVERLAY_ID = '__parcel__error__overlay__';
 var OldModule = module.bundle.Module;
@@ -217,7 +217,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "58630" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "50677" + '/');
 
   ws.onmessage = function (event) {
     checkedAssets = {};
